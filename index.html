@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Andi</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="homeFunction()">Home</a></li>
+                <li><a href="#pendidikan" onclick="pendidikanFunction()">Pendidikan</a></li>
+                <li><a href="#kontak" onclick="kontakFunction()">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div id="content">
+
+                <article id="home">
+                    <h2>Hello World</h2>
+                    <div id="img-home">
+                        <img src="assets/image/andi.jpg">
+                    </div>
+                    <p>Hello saya andi kelas 3 smk, saya tertarik di bidang dunia pemrograman web. saya mulai menyukai
+                        pemerograman web sejak kelas 1. Saya tertarik sejak ikut eskul jurusan dan mengambil bidang web.
+                        banyak hal yang ingin saya pelajari</p>
+                </article>
+
+                <article id="pendidikan">
+                    <h2>Pendidikan</h2>
+                    <div id="img-home">
+                        <img src="assets/image/smk.jpeg">
+                    </div>
+                    <p>Saya sekarang sekolah di <a href="smknegeribantarkalong.sch.id">SMKN Bantarkalong</a> kelas 12 di
+                        jurusan RPL</p>
+                    <p>Saya menganbil beberapa eskul yaitu ; eskul jursan dan eskul pramuka</p>
+                </article>
+                
+                <article id="kontak">
+                    <h2>Kontak</h2>
+                    <table>
+                        <tr>
+                            <td>No Hp</td>
+                            <td>:</td>
+                            <td>081224204657</td>
+                        </tr>
+                        <tr>
+                            <td>Whaptsapp</td>
+                            <td>:</td>
+                            <td>081224204657</td>
+                        </tr>
+                        <tr>
+                            <td>Gmail</td>
+                            <td>:</td>
+                            <td>aandi300801@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Instagram</td>
+                            <td>:</td>
+                            <td>andi_300801</td>
+                        </tr>
+                    </table>
+                </article>
+
+            </div>
+        </article>
+        <aside>
+            <article>
+                <header>
+                    <h2>Biodata</h2>
+                    <div id="img-saya">
+                        <img src="assets/image/andi.jpg" alt="gambar saya">
+                    </div>
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Andi</td>
+                        </tr>
+                        <tr>
+                            <td>Usia</td>
+                            <td>:</td>
+                            <td>18 tahun</td>
+                        </tr>
+                    </table>
+                </header>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        Created By <a href="">Andi</a>
+    </footer>
+
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        var home = document.getElementById("home");
+        var pendidikan = document.getElementById("pendidikan");
+        var kontak = document.getElementById("kontak");
+        home.style.display = "block";
+        pendidikan.style.display = "none";
+        kontak.style.display = "none";
+    </script>
+</body>
+
+</html>
